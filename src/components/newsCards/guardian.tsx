@@ -6,7 +6,7 @@ const GuardianCard = (props: GuardianResult) => {
   return (
     <Box>
       <ChakraLink asChild>
-        <Link to={`article/guardian?id=${props.id}`}>
+        <Link to={`/article/guardian?id=${props.id}`}>
           <Heading size={'sm'} fontWeight={'bold'}>{props.webTitle}</Heading>
         </Link>
       </ChakraLink>

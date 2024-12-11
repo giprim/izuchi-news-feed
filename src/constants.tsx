@@ -32,9 +32,9 @@ export const categories = [
 
 export const authors = [
   // new york times
-  'Maggie Haberman',
-  'David Brooks',
-  'Thomas L. Friedman',
+  'Jacqueline Howard',
+  'Annika Kim Constantino',
+  'Casey Tolan',
   'Maureen Dowd',
   'Ezra Klein',
   'Jamelle Bouie',

@@ -18,8 +18,8 @@ const RenderResults = ({ data }: RenderResultsProps) => {
   ) return <Empty />
   return (
     <Box>
-      {data?.newsApiResponse && <RenderNewsAPIArticles articles={data?.newsApiResponse.articles} />}
       {data?.guardianResponse && <RenderGuardianArticles articles={data?.guardianResponse.response.results} />}
+      {data?.newsApiResponse && <RenderNewsAPIArticles articles={data?.newsApiResponse.articles} />}
       {data?.nytResponse && <RenderNYTArticles articles={data.nytResponse.response.docs} />}
     </Box>
   )

@@ -2,21 +2,24 @@
 
 ## How to run project on MacOS and Linux
 
-###### step 1
-  Clone repo ``https://github.com/giprim``
+###### Step 1
+  Clone repo ``https://github.com/giprim/izuchi-news-feed.git``
 
-###### step 2 
+###### Step 2
+  Create a `.env` file in the root of the project directory and paste the provider environment variables
+
+###### Step 3 
   From your terminal navigate to the project directory
 
-###### Step 3
+###### Step 4
   Give execute permission to ./startApp.sh
 
   ```chmod +x startApp.sh```
 
-###### Step 4
-  Execute startApp.sh by running `./startApp.sh` in your terminal
-
 ###### Step 5
+  Execute startApp.sh by running `./startApp.sh` in your terminal and wait for docker to do its thing.
+
+###### Step 6
   Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ## How to run project on Windows

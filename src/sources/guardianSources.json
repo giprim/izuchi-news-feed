@@ -1,0 +1,46 @@
+{
+  "name": "guardian",
+    "sources": [
+      {
+        "id": "au",
+        "path": "au",
+        "edition": "AU",
+        "webTitle": "new guardian australia front page",
+        "webUrl": "https://www.theguardian.com/au",
+        "apiUrl": "https://content.guardianapis.com/au"
+      },
+      {
+        "id": "europe",
+        "path": "europe",
+        "edition": "Europe",
+        "webTitle": "new guardian europe front page",
+        "webUrl": "https://www.theguardian.com/europe",
+        "apiUrl": "https://content.guardianapis.com/europe"
+      },
+      {
+        "id": "international",
+        "path": "international",
+        "edition": "International",
+        "webTitle": "new guardian international front page",
+        "webUrl": "https://www.theguardian.com/international",
+        "apiUrl": "https://content.guardianapis.com/international"
+      },
+      {
+        "id": "uk",
+        "path": "uk",
+        "edition": "UK",
+        "webTitle": "new guardian uk front page",
+        "webUrl": "https://www.theguardian.com/uk",
+        "apiUrl": "https://content.guardianapis.com/uk"
+      },
+      {
+        "id": "us",
+        "path": "us",
+        "edition": "US",
+        "webTitle": "new guardian us front page",
+        "webUrl": "https://www.theguardian.com/us",
+        "apiUrl": "https://content.guardianapis.com/us"
+      }
+    ]
+}
+
